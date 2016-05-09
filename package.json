@@ -35,8 +35,5 @@
     "babel-eslint": "^6.0.4",
     "eslint": "^2.9.0",
     "eslint-config-ronik": "^1.0.3"
-  },
-  "peerDependencies": {
-    "velvet": "*"
   }
 }
