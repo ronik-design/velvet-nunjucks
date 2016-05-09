@@ -7,13 +7,6 @@ const scripts = require('./tags/scripts');
 const styles = require('./tags/styles');
 
 module.exports = function () {
-  const tags = {
-    files,
-    filters,
-    images,
-    scripts,
-    styles
-  };
-
+  const tags = [files, filters, images, scripts, styles];
   return {tags};
 };
