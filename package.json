@@ -1,0 +1,41 @@
+{
+  "name": "velvet-tags",
+  "version": "0.1.0",
+  "description": "Nunjucks tags for the Velvet static-site generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronik-design/velvet-tags.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "tags",
+    "ssg",
+    "static-site",
+    "generator",
+    "velvet"
+  ],
+  "author": "Michael Shick <m@shick.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronik-design/velvet-tags/issues"
+  },
+  "homepage": "https://github.com/ronik-design/velvet-tags#readme",
+  "dependencies": {
+    "qs": "^6.2.0"
+  },
+  "eslintConfig": {
+    "extends": "ronik"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-ronik": "^1.0.3"
+  },
+  "peerDependencies": {
+    "velvet": "*"
+  }
+}
