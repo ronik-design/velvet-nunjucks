@@ -1,5 +1,7 @@
 'use strict';
 
+const nunjucksDate = require('nunjucks-date');
+
 const install = function (env) {
   env.addFilter('starts_with', (str, searchStr) => {
     str = str || '';
@@ -10,6 +12,8 @@ const install = function (env) {
     str = str || '';
     return str.search(searchStr) === str.length - searchStr.length;
   });
+
+  env.addFilter('date', nunjucksDate);
 };
 
 module.exports = {install};

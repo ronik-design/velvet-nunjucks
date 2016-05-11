@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ronik-design/velvet-nunjucks#readme",
   "dependencies": {
+    "nunjucks-date": "^1.2.0",
     "qs": "^6.2.0"
   },
   "eslintConfig": {
