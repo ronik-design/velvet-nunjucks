@@ -1,0 +1,6 @@
+'use strict';
+
+module.exports.install = function (env) {
+  const site = env.getGlobal('site');
+  env.addGlobal('get_page', site.getPage);
+};
