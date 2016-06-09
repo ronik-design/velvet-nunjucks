@@ -2,5 +2,7 @@
 
 module.exports.install = function (env) {
   const site = env.getGlobal('site');
-  env.addGlobal('get_page', site.getPage);
+  env.addGlobal('get_page', relpath => {
+    return site.getPage(relpath);
+  });
 };
